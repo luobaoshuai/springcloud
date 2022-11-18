@@ -1,6 +1,5 @@
 server:
   port: 8001
-
 #mybatis配置
 mybatis:
   type-aliases-package: com.xy.springcloud.pojo
