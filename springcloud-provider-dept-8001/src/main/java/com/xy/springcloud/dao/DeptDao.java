@@ -3,6 +3,7 @@ package com.xy.springcloud.dao;
 import com.xy.springcloud.pojo.Dept;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
 
@@ -10,7 +11,7 @@ import java.util.List;
 @Repository
 public interface DeptDao {
 
-    public boolean addDept(Dept dept);
+    public boolean addDept(@RequestBody Dept dept);
 
     public Dept queryById(Long id);
 

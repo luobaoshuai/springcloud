@@ -1,7 +1,7 @@
 package com.xy.springcloud.service;
 
-import com.xy.springcloud.dao.DeptDao;
 import com.xy.springcloud.pojo.Dept;
+import com.xy.springcloud.dao.DeptDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
